@@ -1,0 +1,13 @@
+Validation completed October 9, 2026 (client date).
+
+PASS: PowerShell syntax parser accepted the final payload.
+PASS: 39 assertions exercised real payload functions with simulated registry,
+      powercfg, NIC and mouse APIs, including repeat application, exact restore,
+      originally absent values, owned plan cleanup, and incomplete undo/retry.
+PASS: ASCII / Windows CRLF batch wrapper and menu/package checks.
+
+LIMIT: Linux PowerShell 7.4.6 parser and simulations, not Windows 5.1 runtime.
+No Windows hardware, BIOS, driver, game FPS or click-to-photon test was run.
+
+PowerShell parser archive verified against official release SHA256:
+6f6015203c47806c5cc444c19d8ed019695e610fbd948154264bf9ca8e157561

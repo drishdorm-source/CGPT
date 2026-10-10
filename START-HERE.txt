@@ -1,0 +1,30 @@
+YOUR PC
+Windows 10 22H2 / build 19045
+i9-11900K / ASUS Prime Z590-A / RTX 3080 / 64 GB DDR4-3200 / 240 Hz
+Call of Duty + Rocket League
+
+RUN
+Right-click Competitive-Tuning-Win10.bat and choose Run as administrator.
+Use your normal Windows account. Enter means NO at each confirmation.
+
+1. Option 1: save the hardware/settings audit.
+2. Option 15: Call of Duty high-FPS Windows preset.
+3. Follow GUIDE.md for NVIDIA Reflex, game graphics, 240 Hz, RAM Gear 1 and ReBAR.
+4. Compare repeated warm game benchmarks. Gains depend on your actual bottleneck.
+5. Option 13: undo the changes made by this tool. Restart Windows afterward.
+
+The CoD preset enables Game Mode, turns off Xbox game recording preferences
+(manual Xbox clips may also be unavailable), and activates a separate
+High Performance-based AC plan. CPU minimum is 5%, maximum 100%; performance
+EPP is requested only when the setting is exposed.
+
+Option 14 compares your original power plan without undoing other settings.
+Option 3 is a separate aggressive CPU/core-parking test that can increase heat.
+Option 7 is an optional network experiment; restart Windows before comparison.
+
+Backups/reports: %LOCALAPPDATA%\PC-Competitive-Tuning
+Keep backup.json. BIOS, NVIDIA and manual game/Windows changes have separate undo.
+
+The batch installs/downloads nothing. It was parsed and its backup/restore logic
+tested with simulated APIs, not executed on a Windows gaming PC. Read SOURCES.md
+for research coverage and limits. GUIDE.md can be opened in Notepad.
